@@ -1,0 +1,106 @@
+/* From Uiverse.io by satyamchaudharydev */ 
+#subscribe {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  #subscribe {
+    --primary-color: blue;
+    --hovered-color: #c84747;
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5\rem;
+    align-items: center;
+  }
+  
+  #subscribe p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  
+  #subscribe::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+  #subscribe p::before {
+    position: absolute;
+    /*   box-sizing: border-box; */
+    content: "Subscribe";
+    width: 0%;
+    inset: 0;
+    color: var(--hovered-color);
+    overflow: hidden;
+    transition: 0.3s ease-out;
+  }
+  
+  #subscribe:hover::after {
+    width: 100%;
+  }
+  
+  #subscribe:hover p::before {
+    width: 100%;
+  }
+  
+  #subscribe:hover svg {
+    transform: translateX(4px);
+    color: var(--hovered-color);
+  }
+  
+  #subscribe svg {
+    color: var(--primary-color);
+    transition: 0.2s;
+    position: relative;
+    width: 15px;
+    transition-delay: 0.2s;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2d2e32;
+    border: 2px solid #2d2e32;
+    transition: all 0.45s;
+  }
+  
+  .button:hover {
+    transform: rotate(360deg);
+    transform-origin: center center;
+    background-color: #ffff;
+    color: #2d2e32;
+  }
+  
+  .button:hover .btn-svg {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg)
+      brightness(103%) contrast(103%);
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
