@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { lazy } from 'react'
 
 export const Team = () => {
   return (
@@ -11,12 +11,12 @@ export const Team = () => {
             <h2 className='text-center text-xl text-stone-500 font-semibold'>Abhinav Singh</h2>
             <p className="text-center text-sm w-[180px] truncate whitespace-nowrap">AI/ML Engineer, IIT Madras Alumnus</p>
             <article className='flex gap-2 '>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            </article>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            </article> 
         </div>
         </a>
         <a href="https://www.linkedin.com/in/saurabh-bajpai-a74493276/">
@@ -25,12 +25,12 @@ export const Team = () => {
             <h2 className='text-center text-xl text-stone-500 font-semibold'>Dr. Saurabh Bajpai</h2>
             <p className='text-start text-sm'>Docter, Leading Research</p>
             <article className='flex gap-2 '>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            </article>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            </article> 
         </div>
         </a>
         <a href="https://www.linkedin.com/in/mayankagrawal2/">
@@ -39,11 +39,11 @@ export const Team = () => {
             <h2 className='text-center text-xl text-stone-500 font-semibold'>Mayank Agarwal</h2>
             <p className='text-start text-sm'>CA, SRCC Alumuns</p>
             <article className='flex gap-2 '>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
             </article>
         </div>
         </a>
@@ -53,12 +53,12 @@ export const Team = () => {
             <h2 className='text-center text-xl text-stone-500 font-semibold'>Prabesh Goyal</h2>
             <p className='text-start text-sm'>Data Engineer</p>
             <article className='flex gap-2 '>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            </article>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            </article> 
         </div>
         </a>
         <a href="https://www.linkedin.com/in/ricky-bahrey/">
@@ -67,11 +67,11 @@ export const Team = () => {
             <h2 className='text-center text-xl text-stone-500 font-semibold'>Ricky Bahrey</h2>
             <p className='text-start text-sm'>Product Designer</p>
             <article className='flex gap-2 '>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
-            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
+            <video src="../src/assets/favourite.mp4" muted autoPlay loop width={'30px'} height={'30px'} onLoad={lazy}></video>
             </article>
         </div>
         </a>

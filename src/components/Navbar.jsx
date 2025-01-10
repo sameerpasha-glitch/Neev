@@ -44,19 +44,21 @@ export const Navbar = () => {
 
   return (
     <nav className="nav-container flex justify-between p-1 pl-8 pr-8 items-center ">
-      <ul className="nav-left flex items-center">
+      <ul className="nav-left flex items-center ">
         <li>
           <img
             src=".\src\assets\neev (1).svg"
             alt="Logo"
             width="45px"
             height="45px"
+            loading='lazy'
+            className='s sm:w-[20px] sm:h-[20px] lg:h-w-[20px] lg:h-[20px] '
           />
         </li>
-        <li className="text-3xl pl-4 text-slate-800 font-semibold">neev</li>
+        <li className="brand text-3xl pl-4 text-slate-800 font-semibold">neev</li>
       </ul>
       <ul className="nav-right flex gap-4 ml-32">
-        <button className="border rounded-md mr-6 border-blue-300 pl-2 pr-2 p-3 hover:shadow-lg hover:transition duration-500 hover:border-blue-700">
+        <button className="schedule border rounded-md mr-6 border-blue-300 pl-2 pr-2 p-3 hover:shadow-lg hover:transition duration-500 hover:border-blue-700">
           <input type="date" name="" id="" />
         </button>
         <div className="toggle-switch">
@@ -78,7 +80,7 @@ export const Navbar = () => {
           Careers
         </button>
       </ul>
-      <ul className="flex items-center space-x-6">
+      <ul className="ratings flex items-center space-x-6">
         <li>
           <div className="star-rating-container flex flex-col items-center space-y-4 p-6 w-64">
             <div className="flex space-x-2" id="rating-container">
@@ -97,7 +99,7 @@ export const Navbar = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
                     viewBox="0 0 24 24"
-                    className="w-full h-full"
+                    className="star-r w-full h-full"
                   >
                     <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
                   </svg>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import { lazy } from 'react'
 
 export const Hero1 = () => {
   return (
@@ -29,7 +30,7 @@ export const Hero1 = () => {
         </aside>
         </div>
         <div>
-        <video src="../src/assets/Doctor checking patient in clinic.mp4" muted autoPlay loop width="400px"></video>
+        <video src="../src/assets/Doctor checking patient in clinic.mp4" muted autoPlay loop width="400px" onLoad={lazy}></video>
         </div>
     </section>
     </>

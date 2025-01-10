@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { lazy } from 'react'
 
 export const Hero2 = () => {
   return (
     <>
     <section className='m-32 flex justify-between'>
       <div>
-      <video src="../src/assets/Robot Chat.mp4" muted autoPlay loop width="600px"></video>
+      <video src="../src/assets/Robot Chat.mp4" muted autoPlay loop width="600px" onLoad={lazy}></video>
       </div>
       <div>
     <h2 className='text-3xl font-bold w-[550px] text-stone-500 gap-x-4'>

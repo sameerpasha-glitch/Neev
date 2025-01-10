@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "../App.css";
 import "./Hr.css";
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
 export const Hero = () => {
   useEffect(() => {
@@ -23,11 +24,10 @@ export const Hero = () => {
 
     // Scroll-to-top button behavior
     const backButton = document.querySelector("#back");
+    backButton.style.display = "none";
     window.addEventListener("scroll", () => {
       if (window.scrollY > 500) {
         backButton.style.display = "block";
-      } else {
-        backButton.style.display = "none";
       }
     });
 
