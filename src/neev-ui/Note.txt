@@ -1,25 +1,23 @@
-Just a Note on overall website :-
-
-    1.Responsiveness Issue:
-
-        The neehq website is beautifully built, but its responsiveness needs improvement, as it appears oversized on certain devices.
-        Added Features in My Project:
-
-    2.Top-back Button: Added a top-back button, which is a current trend.
-        Dark/Light Mode Toggle: Implemented a toggle for switching between dark and light modes.
-        Email Section Update:
-
-    3.Removed the "waiting list" button in the email section.
-        Replaced it with a "subscribe" button to notify users of new feature releases.
-    
-    4.Future Ideas:
-        Search Bar with Microphone for Scheduling Dates: Had the idea of integrating a search bar where users can use the microphone to schedule dates. However, I feel it's a bit advanced for now and plan to learn more about it in the future.
-        Scheduled Dates and Hospital Location Feature: Thought of adding a feature for hospital location related to scheduled dates but plan to implement this after the appointment functionality.
-        Progress and Learning:
-
-** 
-It was really a great opportunity to redesign your website for me and though the website is beautifully designed and well-built, creating a visually appealing user experience.
-
-as a beginner, I’ve managed to achieve this & eager to continue learning and contributing more in the future. 
-
-**
+/*
+ * Note on overall website:
+ *
+ * 1. Responsiveness Issue:
+ *    - The neehq website is beautifully built, but its responsiveness needs improvement, as it appears oversized on certain devices.
+ *
+ * 2. Added Features in My Project:
+ *    - Top-back Button: Added a top-back button, which is a current trend.
+ *    - Dark/Light Mode Toggle: Implemented a toggle for switching between dark and light modes.
+ *    - Email Section Update: Removed the "waiting list" button in the email section and replaced it with a "subscribe" button to notify users of new feature releases.
+ *
+ * 3. Future Ideas:
+ *    - Search Bar with Microphone for Scheduling Dates: Idea of integrating a search bar where users can use the microphone to schedule dates. Plan to learn more about it in the future.
+ *    - Scheduled Dates and Hospital Location Feature: Thought of adding a feature for hospital location related to scheduled dates but plan to implement this after the appointment functionality.
+ *    - Chat bot feature to help the user interact.
+ *
+ * My Project Drawbacks:
+ *    - Did not implement a responsive design due to time constraints and limited knowledge of cross-browser compatibility. Actively working on improving these skills to enhance future projects.
+ *
+ * Note:
+ *    - It was a great opportunity to redesign the website. Although the website is beautifully designed and well-built, creating a visually appealing user experience.
+ *    - As a beginner, I’ve managed to achieve this and am eager to continue learning and contributing more in the future.
+ */

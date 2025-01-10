@@ -29,6 +29,9 @@ export const Hero = () => {
       if (window.scrollY > 500) {
         backButton.style.display = "block";
       }
+      else{
+        backButton.style.display = "none";
+      }
     });
 
     // Cleanup event listeners and DOM changes
